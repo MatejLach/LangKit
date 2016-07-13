@@ -5,7 +5,7 @@ let package = Package(
     exclude: ["Documentation", "Build", "Frameworks", "Examples", "LangKit-iOS"],
     dependencies:
     [
-        .Package(url: "https://github.com/xinranmsn/CommandLine", majorVersion: 2, minor: 3),
+        .Package(url: "https://github.com/MatejLach/CommandLine", majorVersion: 2, minor: 3),
     ],
     targets:
     [
